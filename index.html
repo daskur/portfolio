@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Auwal Abubakar, Web Developer and Graphic Designer from Nigeria.">
+    <title>Auwal Abubakar | Web Developer & Graphic Designer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header and mobile navigation -->
+    <header class="header" id="header">
+        <nav class="nav container" aria-label="Main navigation">
+            <a href="#home" class="nav-logo" aria-label="Go to home">AA<span>.</span></a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode">
+                <span class="theme-icon" aria-hidden="true">☾</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home section -->
+        <section class="home section" id="home">
+            <div class="home-container container">
+                <div class="home-content reveal">
+                    <p class="home-eyebrow">Hello, I'm</p>
+                    <h1>Auwal <span>Abubakar</span></h1>
+                    <h2>Web Developer &amp; Graphic Designer</h2>
+                    <p class="home-description">
+                        I create clean, responsive websites and visual designs that turn ideas into
+                        memorable digital experiences.
+                    </p>
+                    <div class="home-buttons">
+                        <a href="#projects" class="button button-primary">View My Work</a>
+                        <a href="#contact" class="button button-outline">Contact Me</a>
+                    </div>
+                </div>
+
+                <div class="home-image reveal">
+                    <div class="profile-placeholder" role="img" aria-label="Profile image placeholder for Auwal Abubakar">
+                        <span>AA</span>
+                        <p><img style="border-radius: 50%;" src="images/a.jpeg" width="250px" height="250px"></p>
+                    </div>
+                    <div class="image-decoration image-decoration-one"></div>
+                    <div class="image-decoration image-decoration-two"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p>Get to know me</p>
+                    <h2>About Me</h2>
+                </div>
+
+                <div class="about-content reveal">
+                    <div class="about-card">
+                        <span class="about-number">01</span>
+                        <h3>Who I Am</h3>
+                        <p>
+                            I am Auwal Abubakar, a creative web developer and graphic designer
+                            based in Nigeria. I enjoy solving problems and building meaningful
+                            experiences for people and businesses.
+                        </p>
+                    </div>
+                    <div class="about-card">
+                        <span class="about-number">02</span>
+                        <h3>What I Do</h3>
+                        <p>
+                            I combine clean code with thoughtful visual design. I am interested
+                            in responsive websites, modern interfaces, branding, and digital art
+                            that communicates clearly.
+                        </p>
+                    </div>
+                    <div class="about-card">
+                        <span class="about-number">03</span>
+                        <h3>My Approach</h3>
+                        <p>
+                            I focus on simplicity, usability, and attention to detail. Every
+                            project should look polished, work smoothly, and be easy for users to navigate.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p>What I know</p>
+                    <h2>My Skills</h2>
+                </div>
+
+                <div class="skills-grid reveal">
+                    <article class="skill-card">
+                        <div class="skill-icon">&lt;/&gt;</div>
+                        <h3>HTML</h3>
+                        <p>Semantic structure</p>
+                        <div class="skill-bar"><span style="--level: 90%"></span></div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-icon">#</div>
+                        <h3>CSS</h3>
+                        <p>Modern responsive design</p>
+                        <div class="skill-bar"><span style="--level: 85%"></span></div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-icon">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive experiences</p>
+                        <div class="skill-bar"><span style="--level: 75%"></span></div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-icon">✦</div>
+                        <h3>Graphic Design</h3>
+                        <p>Branding and visuals</p>
+                        <div class="skill-bar"><span style="--level: 80%"></span></div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-icon">CD</div>
+                        <h3>CorelDRAW</h3>
+                        <p>Vector design</p>
+                        <div class="skill-bar"><span style="--level: 85%"></span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p>Some of my recent work</p>
+                    <h2>Featured Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card reveal">
+                        <div class="project-image project-image-one" aria-label="Business website project preview">
+                            <span>01</span>
+                        </div>
+                        <div class="project-info">
+                            <p>Web Development</p>
+                            <h3>Business Landing Page</h3>
+                            <p>A modern, responsive website designed to showcase a growing business.</p>
+                            <a href="#contact" class="project-link">View Project <span>→</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-image project-image-two" aria-label="Brand identity project preview">
+                            <span>02</span>
+                        </div>
+                        <div class="project-info">
+                            <p>Graphic Design</p>
+                            <h3>Brand Identity Design</h3>
+                            <p>A complete visual identity featuring a logo, colors, and brand assets.</p>
+                            <a href="#contact" class="project-link">View Project <span>→</span></a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-image project-image-three" aria-label="Portfolio website project preview">
+                            <span>03</span>
+                        </div>
+                        <div class="project-info">
+                            <p>UI / Web Design</p>
+                            <h3>Creative Portfolio</h3>
+                            <p>An elegant portfolio concept focused on clean layouts and strong typography.</p>
+                            <a href="#contact" class="project-link">View Project <span>→</span></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <p>Let's work together</p>
+                    <h2>Contact Me</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-details reveal">
+                        <h3>Have a project in mind?</h3>
+                        <p>Send me a message and I will get back to you as soon as possible.</p>
+
+                        <div class="contact-item">
+                            <span class="contact-symbol">@</span>
+                            <div>
+                                <small>Email</small>
+                                <a href="mailto:[Your Email]">[Your Email]</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-symbol">☎</span>
+                            <div>
+                                <small>Phone</small>
+                                <a href="tel:[Your Phone Number]">[Your Phone Number]</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-symbol">⌖</span>
+                            <div>
+                                <small>Location</small>
+                                <p>Nigeria</p>
+                            </div>
+                        </div>
+
+                        <div class="social-links" aria-label="Social media links">
+                            <a href="#" aria-label="LinkedIn">in</a>
+                            <a href="#" aria-label="GitHub">gh</a>
+                            <a href="#" aria-label="Instagram">ig</a>
+                        </div>
+                    </div>
+
+                    <form class="contact-form reveal" id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name">
+                            <small class="error-message"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email">
+                            <small class="error-message"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project"></textarea>
+                            <small class="error-message"></small>
+                        </div>
+                        <button type="submit" class="button button-primary">Send Message</button>
+                        <p class="form-status" id="formStatus" role="status"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Auwal Abubakar. All rights reserved.</p>
+            <a href="#home">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
